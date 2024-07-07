@@ -87,3 +87,6 @@ def monitor_registry_access():
 
 # Run the intrusion detection
 monitor_registry_access()
+
+# Prevent terminal from closing immediately
+input("Press Enter to exit...")
